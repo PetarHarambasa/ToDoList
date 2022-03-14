@@ -1,0 +1,40 @@
+{
+  "name": "rl-qa-interview",
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    },
+    "rootDir": "."
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "jest"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@jest/transform": "^27.0.1",
+    "axios": "^0.21.1",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
+    "mssql": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^27.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "^27.0.1"
+  }
+}
